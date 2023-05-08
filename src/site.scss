@@ -11,6 +11,10 @@
         height: 100vh;
     }
 
+    @media (max-width: 991px) {
+        margin-top: $spacer * 2;
+    }
+
     max-width: 600px;
     text-align: center;
 
@@ -34,4 +38,9 @@ body {
 
 .ext-link {
     @include button-variant(#fff, #0C2D48, #0C2D48);
+}
+
+.links .btn {
+    margin-left: $spacer * .25;
+    margin-right: $spacer * .25;
 }
