@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/functions";
+
+// Default variable overrides
+$background-color: #0C2D48;
+$body-bg: $background-color;
+$body-color: #fff;
+
+// Required
+@import "~bootstrap/scss/variables";
+
+// Default map overrides
+
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/root";
+
+
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/containers";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/buttons";
+
+@import "~bootstrap/scss/utilities/api";

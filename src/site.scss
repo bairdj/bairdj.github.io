@@ -1,0 +1,37 @@
+@import "custom.scss";
+
+.main-container {
+    @extend .container;
+    @extend .d-flex;
+    @extend .justify-content-center;
+    @extend .align-items-center;
+    
+    // Fill 100% height but only on large screens
+    @media (min-width: 992px) {
+        height: 100vh;
+    }
+
+    max-width: 600px;
+    text-align: center;
+
+    p {
+        text-align: justify;
+    }
+}
+
+
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+}
+
+.main-container h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.ext-link {
+    @include button-variant(#fff, #0C2D48, #0C2D48);
+}
